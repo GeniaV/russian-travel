@@ -1,0 +1,24 @@
+.place__container {
+  max-width: 480px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place__container  {
+    margin: 0;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__container  {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__container  {
+    padding-left: 16px;
+    padding-right: 16px;
+   }
+}
