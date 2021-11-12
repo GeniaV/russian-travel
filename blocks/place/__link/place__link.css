@@ -1,10 +1,9 @@
 .place__link {
   font-size: 18px;
   font-weight: 400;
-  line-height: 101%;
+  line-height: 1.22;
   margin: 0;
   color: white;
-  align-self: flex-start;
 }
 
 .place__link:hover {
@@ -13,6 +12,7 @@
 
 @media screen and (max-width: 320px) {
   .place__link {
-    margin: 0 0 0 16px;
-  }
+    padding-left: 16px;
+    padding-right: 16px;
+ }
 }

@@ -2,24 +2,31 @@
   font-size: 72px;
   color: white;
   font-weight: 900;
-  line-height: 105%;
-  margin: 0 0 48px 0;
-  width: 100%;
+  line-height: 1.05;
+  margin: 0;
+  max-width: 460px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .place__title {
     font-size: 42px;
-    line-height: 46px;
-    width: 90%;
-    margin: 0;
+    line-height: 1.10;
+    max-width: 340px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
-    line-height: 90%;
-    margin: 0 0 32px 16px;
+    line-height: 1.09;
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

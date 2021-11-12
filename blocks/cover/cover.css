@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
+  max-height: 480px;
 }
 
 .cover::before {
@@ -32,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 115px) {
+@media screen and (max-width: 768px) {
   .cover {
     margin: 0;
     max-width: 100%;
