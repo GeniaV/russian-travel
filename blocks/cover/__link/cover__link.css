@@ -1,25 +1,8 @@
 .cover__link {
   text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  margin-top: 245px;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__link {
-    margin-top: 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__link {
-    margin-top: 115px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__link {
-    margin-top: 33px;
-  }
+  position: absolute;
 }

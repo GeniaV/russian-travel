@@ -1,5 +1,8 @@
 .header__lang-zone {
   display: flex;
-  margin: 6px;
+  padding: 18px 0 6px 0;
+  margin: 0;
+  list-style: none;
+  justify-content: flex-start;
 }
 

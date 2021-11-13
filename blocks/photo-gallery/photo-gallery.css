@@ -1,4 +1,4 @@
-.photo-grid {
+.photo-gallery {
   display: grid;
   gap: 16px;
   grid-template-columns:  repeat(4, 1fr);
@@ -6,21 +6,21 @@
 }
 
 @media screen and (max-width: 1044px) {
-  .photo-grid {
+  .photo-gallery {
     gap: 14px;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (max-width: 920px) {
-  .photo-grid {
+  .photo-gallery {
     margin: 0 24px 88px 24px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 425px) {
-  .photo-grid {
+  .photo-gallery {
     gap: 12px;
     margin: 0 16px 64px 16px;
     grid-template-columns: 100%;

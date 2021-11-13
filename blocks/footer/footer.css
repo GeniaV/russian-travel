@@ -1,10 +1,9 @@
 .footer {
-  margin-top: 92px;
+  margin: 92px 0 24px 0;
   padding-left: 48px;
   padding-right: 48px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
   flex-wrap: nowrap;
 }
 
@@ -16,10 +15,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .footer {
     padding-left: 16px;
-    padding-right: 118px;
+    padding-right: 16px;
     margin-top: 64px;
     flex-direction: column;
   }

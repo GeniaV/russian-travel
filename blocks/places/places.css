@@ -25,15 +25,14 @@
 @media screen and (max-width: 500px) {
   .places {
     padding-right: 0px;
-    padding-left: 0x;
+    padding-left: 0px;
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin: 0 0 50px 0;
+    margin: 0 0 66px 0;
+    max-height: 5177px;
   }
 }

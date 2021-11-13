@@ -13,11 +13,12 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
-    line-height: 1.10;
+    line-height: 90%;
     max-width: 340px;
+    white-space: nowrap;
   }
 }
 
