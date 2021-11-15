@@ -3,31 +3,17 @@
   color: white;
   font-weight: 900;
   line-height: 106%;
-  margin: 0;
   text-align: center;
-  margin: 245px auto 32px auto;
+  margin: 0 0 32px 0;
   max-width: 560px;
-
+  z-index: 2;
+  position: relative;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    margin-top: 195px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    margin-top: 115px;
-  }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 520px) {
   .cover__title {
     font-size: 32px;
-    line-height: 109%;
-    margin-bottom: 16px;
+    line-height: 90%;
     max-width: 288px;
-    margin-top: 33px;
   }
 }
