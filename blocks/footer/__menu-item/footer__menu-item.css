@@ -1,21 +1,21 @@
-.footer__link {
+.footer__menu-item {
   list-style: none;
   font-size: 16px;
   line-height: 93%;
   margin: 0 18px 0 0;
 }
 
-.footer__link:last-child {
+.footer__menu-item:last-child {
   margin: 0;
 }
 
-.footer__link:hover {
+.footer__menu-item:hover {
   opacity: 0.8;
   transition-duration: 0.4s;
 }
 
 @media screen and (max-width: 320px) {
-  .footer__link {
+  .footer__menu-item {
     font-size: 24px;
     line-height: 100%;
     margin: 0 0 32px 0;

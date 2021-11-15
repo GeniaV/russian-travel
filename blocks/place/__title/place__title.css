@@ -2,7 +2,7 @@
   font-size: 72px;
   color: white;
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 106%;
   margin: 0;
   max-width: 460px;
 }
@@ -13,10 +13,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .place__title {
     font-size: 42px;
-    line-height: 90%;
+    line-height: 110%;
     max-width: 340px;
     white-space: nowrap;
   }
@@ -25,7 +25,7 @@
 @media screen and (max-width: 360px) {
   .place__title {
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 109%;
     max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
